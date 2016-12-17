@@ -1,0 +1,1 @@
+Boilerplate React Redux based on create-react-app official

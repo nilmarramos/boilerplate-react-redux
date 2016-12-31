@@ -1,11 +1,17 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const App = () => {
-    return (
-        <div>
-            <h2>Boilerplate React Redux</h2>
-        </div>
-    );
-};
+
+class App extends Component {
+	constructor(props) {
+		super(props);
+	}
+	render() {
+		return (
+            <div>
+                { this.props.children }
+            </div>
+		);
+	}
+}
 
 export default App;
